@@ -1,0 +1,42 @@
+.AddUser
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 80vh;
+ width: 100vw;
+background-color: rgb(91, 91, 207);;
+
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    scale: 0.9;
+
+}
+
+.form ,input{
+    width: 25rem;
+
+}
+
+input
+{
+    height: 2.5rem;
+}
+
+button{
+    width: 5rem;
+    background-color: rgb(53, 36, 147);
+    color: white;
+    border: none;
+    border: 0.1rem solid white;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.2rem;
+}
