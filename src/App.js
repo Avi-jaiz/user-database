@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './app.css';
+import './App.css';
 import axios from 'axios'
 import AllUsersTable from './Components/AllUsersTable';
 import {AiOutlineUserAdd} from 'react-icons/ai'
