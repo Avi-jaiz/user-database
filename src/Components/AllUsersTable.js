@@ -27,7 +27,7 @@ function AllUsersTable({details}) {
 <tr key={index+1} className='t-row'>
     
     <td className='td'>{index+1}</td>
-    <td ><img src= {items.avatar} className='avatar'/></td>
+    <td ><img src= {items.avatar} className='avatar' alt='avatar'/></td>
     <td className='td'>{items.first_name}</td>
     <td className='td'>{items.last_name}</td>
   <td className='td'>{items.email}</td>
